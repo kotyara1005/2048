@@ -5,7 +5,7 @@ from pyglet.window import key
 from py2048.model import Direction
 
 
-class Dungeon(Layer):
+class GameController(Layer):
     is_event_handler = True
 
     def __init__(self, model):

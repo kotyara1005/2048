@@ -13,7 +13,7 @@ class Direction(Enum):
 class GameModel:
     new_sell = (2, 4)
 
-    def __init__(self, n):
+    def __init__(self, n=4):
         super().__init__()
         self._n = n
         self._sells = [None] * (n ** 2)
